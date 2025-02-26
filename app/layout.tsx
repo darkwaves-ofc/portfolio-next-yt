@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen bg-background font-sans antialiased ${inter.className}`}
+        className={`min-h-screen bg-background font-sans antialiased mx-auto ${inter.className}`}
       >
         <ThemeProvider
           attribute="class"

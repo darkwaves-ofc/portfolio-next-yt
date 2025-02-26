@@ -12,7 +12,7 @@ export default function Home() {
       <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary/20 via-background to-secondary/20 animate-gradient-xy" />
       <div className="relative">
         <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="container flex h-14 items-center">
+          <div className="container mx-auto px-4 flex h-14 items-center">
             <div className="mr-4 hidden md:flex">
               <Link className="mr-6 flex items-center space-x-2" href="/">
                 <span className="hidden font-bold sm:inline-block">John.dev</span>
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </header>
 
-        <main className="container px-4 md:px-6">
+        <main className="container px-4 md:px-6 mx-auto">
           <section className="py-12 md:py-24 lg:py-32 xl:py-40">
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -105,21 +105,21 @@ export default function Home() {
                 <ProjectCard
                   title="E-commerce Platform"
                   description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                  image="/placeholder.svg?height=400&width=600"
+                  image="/ecom.webp"
                   link="https://github.com"
                   tags={["Next.js", "Prisma", "Stripe"]}
                 />
                 <ProjectCard
                   title="Task Management App"
                   description="A real-time task management application with team collaboration features."
-                  image="/placeholder.svg?height=400&width=600"
+                  image="/Task.webp"
                   link="https://github.com"
                   tags={["React", "Node.js", "Socket.io"]}
                 />
                 <ProjectCard
                   title="AI Chat Interface"
                   description="An AI-powered chat interface with natural language processing capabilities."
-                  image="/placeholder.svg?height=400&width=600"
+                  image="/chat.jpg"
                   link="https://github.com"
                   tags={["OpenAI", "Next.js", "TailwindCSS"]}
                 />
@@ -149,7 +149,7 @@ export default function Home() {
         </main>
 
         <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-          <div className="container py-12 px-4 md:px-6">
+          <div className="container mx-auto py-12 px-4 md:px-6">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold">About</h3>

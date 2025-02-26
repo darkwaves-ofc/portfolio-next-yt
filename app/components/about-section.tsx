@@ -11,7 +11,7 @@ export default function AboutSection() {
           <div className="relative aspect-square w-full max-w-md mx-auto lg:max-w-none">
             <Card className="relative w-full h-full overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/about.png"
                 alt="Profile"
                 fill
                 className="object-cover"
